@@ -80,6 +80,10 @@ while True:
     elif command == 'circle':
         howMuch_2 = input("How much radius do you want in the circle? ")
         tk.circle(int(howMuch_2))
+    elif command == 'clear':
+        print("Clearing...")
+        tk.clear()
+        tk.reset()
     elif command == 'quit':
         quit()
     else:
